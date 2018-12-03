@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="align-center">Testing REST API</h1>
+    <div class="task">
+        <ul>
+            <li>Build a simple REST API endpoint for creating/listing record for the students</li>
+            <li>Create a student record endpoint which accepts Name, Email and Phone Number. All 3 fields are required , need basic
+                validation for email and phone number.</li>
+            <li>List students endpoint will return all registered students details in JSON format.</li>
+            <li>List student endpoint will return single user detail in JSON format.</li>
+            <li>You are allowed to use any framework or library, to store data you can choose your favourite database or simple file based
+                storage.</li>
+            <li>Nice to have PHP 7+</li>
+            <li>No need to build HTML form or any other browser side.</li>
+            <li>Please upload all work in to GitHub with all instructions and send us GitHub url to review code.</li>
+            <li>Tested code is a huge plus point</li>
+        </ul>
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+<style>
+    .align-center{
+        text-align: center;
+    }
+    .task{
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+</style>
+{% endblock %}
